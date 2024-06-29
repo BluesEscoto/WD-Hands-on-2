@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background: url('../../../../assets/img/hero4_bgg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.header {
+    width: 100%;
+    background-color: transparent;
+    margin-top: 20px;
+    box-shadow: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.header nav a:hover {
+    color: #ffcccb;
+}
+
+.hero4 img {
+    width: 730px;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    right: -100px;
+    transform: rotate(-15deg);
+}
+
+.hero4-content {
+    position: absolute;
+    top: 37%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.name{
+    font-size: 42px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+.line h2, .desc h3 {
+    margin: 15px 0;
+    color: #fff;
+}
+
+.skills-content {
+    position: absolute;
+    bottom: 95px;
+    left: -270px;
+    right: 0;
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.skill1, .skill2 {
+    width: 45%;
+    background-color: rgba(255, 250, 240, 0.7);
+    border-radius: 10px;
+    padding: 13px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill1 h2, .skill2 h2 {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0;
+}
+
+.skill1 h3, .skill2 h3 {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.img1, .img2, .img3 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom: -40px;
+    margin-left: 60px;
+    border: 2px solid white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.img1 img, .img2 img, .img3 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.image {
+    position: absolute;
+    top: 120px;
+    right: 260px;
+    width: 14%;
+    border: 3px solid white;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}

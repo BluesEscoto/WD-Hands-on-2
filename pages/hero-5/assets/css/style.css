@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(221, 171, 171);
+    padding: 10px 0;
+    box-shadow: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.header nav a:hover {
+    color: #ffcccb;
+}
+
+.left-bg {
+    position: fixed;
+    top: 0;
+    left: -100px;
+    width: 50%;
+    height: 100vh;
+    background-image: url('../../../../assets/img/hero5_bg.jpg');
+    background-size: cover;
+    background-position: left top;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.right-bg {
+    position: fixed;
+    top: 0;
+    right: -40px;
+    width: 60%;
+    height: 100vh;
+    background-image: url('../../../../assets/img/hero5_rightbg.jpg');
+    background-size: cover;
+    background-position: center top;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.title {
+        margin-left: 45%;
+        margin-top: 20px;
+        color: #ff587c;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+.name {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 70%;
+    top: 48%;
+    transform: translateY(-50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+.text1 {
+    color: #ff587c;
+}
+
+.text3 {
+    color: #ff587c;
+}
+
+.text5 {
+    color: #ff587c;
+}
+
+.name div {
+    margin: 0 5px;
+}
+
+.image1 {
+    position: absolute;
+    top: 17%;
+    left: 49%;
+    width: 270px;
+    height: auto;
+    border: 2px solid rgb(249, 58, 122);
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.image2, .image3 {
+    position: absolute;
+    top: 17%;
+    width: 200px;
+    height: auto;
+    border: 2px solid rgb(249, 58, 122);
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.image1 img, .image2 img, .image3 img {
+    border-radius: 25px;
+}
+
+.image1 {
+    right: 450px;
+}
+
+.image2 {
+    right: 230px;
+}
+
+.image3 {
+    right: 10px;
+}
+
+.image1 img, .image2 img, .image3 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero5-content {
+    position: relative;
+    top: 350px;
+    left: 180px;
+    right: 0;
+    margin: auto;
+    width: 30%;
+    background-color: rgba(255, 241, 255, 0.7);
+    border-radius: 10px;
+    padding: 13px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero5-content h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    color: #333;
+}
+
+.hero5-content h3 {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    position: fixed;
+    bottom: 120px;
+    right: 40px;
+    width: 220px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.icon img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.des1 img {
+    position: absolute;
+    top: 300px;
+    right: 650px;
+    width: 180px;
+}
+
+.des2 img {
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    width: 100px;
+    transform: rotate(40deg);
+}

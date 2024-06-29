@@ -1,112 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
-
 * {
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
 }
 
 body {
-    height: 300dvh;
     overflow-x: hidden;
+    background: url('../../../../pages/hero-3/assets/img/riven-broken-covenant-762x.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
 }
 
-.hero {
-    height: 100dvh;
-    width: 100dvw;
+.header {
+    width: 100%;
+    background-color: transparent;
+    margin-top: 15px;
+    box-shadow: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.header nav a:hover {
+    color: #ffcccb;
+}
+
+.hero3-images {
     position: relative;
+    top: 100px;
+    right: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
 
-    .background {
-        .toxic {
-            width: 100%;
-            position: absolute;
-            z-index: -2;
-            height: 100dvh;
-        }
-            
-        .partial-color {
-            background-image: linear-gradient(to right top, #340057b2, #93ee00d2);
-            height: 100dvh;
-            width: 70dvw;
-            position: absolute;
-            z-index: -1;
-            right: 0;
-        }
-    }
+.hero3-1, .hero3-2, .hero3-3 {
+    margin-left: 15px;
+}
 
-    .content {
-        display: flex;
-        align-items: center;
-        gap: 5rem;
+.hero3-1 img, .hero3-2 img, .hero3-3 img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
 
-        .left {
-            height: 100dvh;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            width: 50dvw;
+.hero3-container {
+    position: absolute;
+    display: flex;
+    margin-left: 90px;
+    bottom: 25%;
+    width: 30%;
+}
 
-            img {
-                width: 40rem;
-                aspect-ratio: 1/1;
-                object-fit: cover;
-                box-shadow: 40px 45px 12px 2px rgba(6, 68, 0, 0.62);
-                -webkit-box-shadow: 40px 45px 12px 2px rgba(6, 68, 0, 0.62);
-                -moz-box-shadow: 40px 45px 12px 2px rgba(6, 68, 0, 0.62);
-            }
-        }
+.japanese {
+    font-size: 55px;
+    font-family: Impact, sans-serif;
+}
 
-        .right {
-            width: 50dvw;
+.name {
+    font-size: 40px;
+}
 
-            .container {
-                width: 40rem;
-                aspect-ratio: 1/1;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+.hero3-content {
+    max-width: 800%;
+}
 
-                .designer {
-                    font-weight: 100;
-                    font-size: 2rem;
-                    letter-spacing: .5rem;
-                }
+.desc {
+    margin-top: 20px;
+}
 
-                .name {
-                    font-family: "Gwendolyn", cursive;
-                    font-size: 4rem;
+.desc h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
-                    span {
-                        font-size: 5rem;
-                    }
-                }
+.tape {
+    position: absolute;
+    bottom: -230px;
+    left: -60px;
+    transform: rotate(-5deg);
+    z-index: 999;
+}
 
-                .message {
-                    font-size: 1.5rem;
-                    font-weight: 500;
-                }
+.tape img {
+    width: 550px;
+    height: auto;
+}
 
-                .content {
-                    font-size: 1.5rem;
-                    padding-bottom: 1.5rem;
-                    border-bottom: 2px solid black;
-                    width: fit-content;
-                    text-align: justify;
-                    text-justify: inter-word;
-                }
+.tape2 {
+    position: absolute;
+    top: -200px;
+    right: -100px;
+    transform: rotate(20deg);
+    z-index: -1;
+}
 
-                img {
-                    height: 7rem;
-                    width: fit-content;
-                }
+.tape2 img {
+    display: block;
+    width: 550px;
+    height: auto;
+}
 
-                .account {
-                    text-decoration: none;
-                    color: black;
-                    font-size: 1.5rem;
-                }
-            }
-        }
+.icon1 {
+    position: absolute;
+    bottom: -20px;
+    right: -10px;
+}
 
-    }
+.icon1 img {
+    display: block;
+    width: 230px;
+    height: auto;
 }
