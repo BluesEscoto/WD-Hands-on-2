@@ -5,7 +5,7 @@
 
 body {
     overflow-x: hidden;
-    background: url('../../../../assets/img/hero4_bgg.jpg') no-repeat center center fixed;
+    background: url('../../../../pages/hero-5/assets/img/ksante-5.png') no-repeat center center fixed;
     background-size: cover;
     color: #333;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .header nav a:hover {
-    color: #ffcccb;
+    color: #1b1514;
 }
 
 .hero4 img {
@@ -62,7 +62,7 @@ body {
 
 .line h2, .desc h3 {
     margin: 15px 0;
-    color: #fff;
+    color: #201818;
 }
 
 .skills-content {
@@ -110,7 +110,7 @@ body {
     margin-top: 80px;
     margin-bottom: -40px;
     margin-left: 60px;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 153, 0);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -126,7 +126,7 @@ body {
     top: 120px;
     right: 260px;
     width: 14%;
-    border: 3px solid white;
+    border: 3px solid rgb(0, 0, 0);
     box-sizing: border-box;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }

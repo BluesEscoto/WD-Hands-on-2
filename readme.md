@@ -5,13 +5,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/BluesEscoto">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="/assets/img/zed-1.png" alt="LEAGUE OF LEGENDS" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">WD-HANDS-ON-2-</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
   This is all about League of Legends Champions.
 </div>
@@ -52,19 +49,17 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Hands on project to showcase Hero Styles and Card Designs
+To show mastery of the topic
+HTML and CSS were used
+Key Components
 
 ### Key Components
 
-- MultiPage Website/Single Page Website
+-Landing Page with Buttons to other pages
+-Animated Cards
 
 ### Technology
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -106,7 +101,6 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
