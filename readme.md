@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/BluesEscoto">
-    <img src="/assets/img/zed-1.png" alt="LEAGUE OF LEGENDS" width="130" height="100">
+    <img src alt="LEAGUE OF LEGENDS" width="130" height="100">
   </a>
   <h3 align="center">WD-HANDS-ON-2-</h3>
 </div>
