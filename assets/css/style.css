@@ -1,92 +1,107 @@
-*{
+:root {
+  --color-accent-1: #c6a288;
+  --color-accent-2: #c99678;
+  --color-secondary-1: #4b403e;
+  --color-secondary-2: #120d0c;
+  --color-primary-1: #f3f3f3;
+  --color-primary-2: #d6d6d6;
+
+  --header-font: "Poppins", sans-serif;
+  --content-font: "Urbanist", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--content-font);
+}
+
+.header {
+  margin: 0;
+  padding: 1rem;
+  width: 150vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
 
-.header {
-  width: 100%;
-  background-color: rgba(114, 8, 8, 0.9);
-  padding: 10px 0;
-  box-shadow: none;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.leaguelogo {
+  width: 20rem;
 }
 
-.header nav {
+.choices {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.header nav a {
-  color: #fff;
+.buttons {
+  color: aliceblue;
   text-decoration: none;
-  margin: 0 15px;
-  font-size: 25px;
+  font-weight: 900;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  transition: all ease .2s;
 }
 
-.header nav a:hover {
-  color: #000000;
+.buttons:hover {
+  font-size: 2rem;
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 10px rgb(0, 0, 0));
 }
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f1d2c3;
-}
-
-.landing-page {
+  color: var(--color-primary-1);
+  background: rgb(0, 0, 0);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   height: 100vh;
-  background: url('../../pages/hero-1/assets/img/zed\ wallpaper.jpg') no-repeat center center/cover;
-  text-align: center;
-  padding: 0 20px;
 }
 
-.content {
-  background: rgba(114, 8, 8, 0.9);
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+.wallpaper {
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  filter: sepia(0.4) hue-rotate(-10deg) opacity(0.6);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title {
-  font-size: 58px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-bottom: 10px;
-  color: #ffffff;
+  font-size: 10rem;
+  font-weight: 700;
+  text-shadow: 0 0 3px rgb(255, 255, 255);
 }
 
 .subtitle {
-  font-size: 24px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-bottom: 20px;
-  color: #ffffff;
+  text-shadow: 0 0 3px black;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .description {
-  font-size: 20px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-bottom: 30px;
-  color: #ffffff;
-}
-
-.button-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.btn {
-  background-color: #000000;
-  color: white;
-  padding: 15px 30px;
-  text-decoration: none;
-  border-radius: 20px;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: rgba(114, 8, 8, 0.9);
+  text-shadow: 0 0 3px black;
+  font-size: 1rem;
+  font-style: italic;
 }

@@ -77,7 +77,7 @@ Key Components
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-HANDS-ON-2
 └─ assets
 |   └─ css
 |   |   └─ style.css

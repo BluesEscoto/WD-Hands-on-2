@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-image: linear-gradient(to right top, hsla(0, 0%, 87%, 0.932), #8b7a7ab2);
+    font-family: 'Urbanist', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 3px solid rgba(8, 5, 5, 0.411);
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    transition: background 500ms, transform 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    background: rgba(238, 238, 238, 0.397);
+    transform: scale(1.05);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.leaguelogo {
+    width: 10rem;
+}
+
+.main_title {
+    color: #083c68;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 5rem;
+    padding: 10rem;
+}
+
+.title_box {
+    color: #fff;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    padding-left: 50rem;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content1,
+.content2 {
+    padding-left: 10rem;
+    padding-right: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .card1_anim {
+        padding-left: 90rem;
+        padding-right: 50rem;
+        box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+        background-color: rgb(39, 39, 39);
+        border-style: solid;
+        border-color: rgb(32, 32, 32);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 5rem;
+        transition: 0.3s;
+
+        .card1_anim:hover {
+            border-style: solid;
+            border-color: rgb(0, 81, 255);
+        }
+}
+.card2 {
+    display: flex;
+    background-image: linear-gradient(to right top, hsla(0, 0%, 100%, 0.932), #000000);
+    border: 1px solid #202020;
+}
+
+.card1 img,
+.card2 img {
+    width: 100%;
+}
+
+.container1,
+.container2 {
+    color: #fff;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.card2 .title2 {
+    font-size: 6.5rem;
+    margin: 0;
+    color: #fff;
+}
+
+.picture_card,
+.picture_card2 {
+    background-color: #000;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #202020;
+    border-radius: 3rem;
+}
+
+.picture_card img,
+.picture_card2 img {
+    width: 100%;
+}
+
+.box_text,
+.box_text2 {
+    color: #fff;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    padding: 5rem;
+}
+
+.color_box {
+    background-color: #020101;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+}
+
+.specs {
+    padding-left: 8rem;
+    padding-right: 10rem;
+    color: #edeef0;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.card1_anim,
+.card2_anim {
+    display: flex;
+    transition: 0.3s;
+    border-radius: 4rem;
+    background-image: linear-gradient(to right top, hsla(0, 0%, 92%, 0.932), #000000);
+    border: 1px solid #202020;
+    overflow: hidden;
+}
+
+.card1_anim:hover,
+.card2_anim:hover {
+    transform: scale(1.1) rotate(3deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.picture_card2_anim {
+    background-color: #b9b9b9;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #200606;
+    border-radius: 3rem;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.picture_card2_anim:hover {
+    background-color: #ffee07;
+    text-shadow: 2px 2px 2px #010102;
+    font-weight: 700;
+    transform: scale(1.05) rotate(5deg);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+.color_box_anim {
+    background-color: #746b6b;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+    transition: 0.3s;
+}
+
+.color_box_anim:hover {
+    background-image: linear-gradient(to right top, hsla(0, 0%, 81%, 0.932), #000000);
+    transform: rotate(5deg);
+}
+
+.star_anim {
+    width: 500px;
+    height: 500px;
+    color: #060607;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    position: relative;
+}
+
+.star_anim::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 20%, transparent 60%);
+    border-radius: 50%;
+    transition: opacity 0.5s;
+    transform: translate(-50%, -50%);
+}
+
+.star_anim:hover::before {
+    opacity: 0;
+}
+
+.star_anim:hover {
+    transform: scale(1.2) rotate(360deg);
+    padding: 1rem;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.specs_anim {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    color: #fff;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.specs_anim:hover {
+    transform: scale(1.5) rotate(-5deg);
+    font-weight: 900;
+    font-style: italic;
+    color: #000;
+    font-size: 3rem;
+}

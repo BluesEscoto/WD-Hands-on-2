@@ -1,122 +1,131 @@
-* {
+@font-face {
+    font-family: "Brose";
+    src: url("../fonts/Brose.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    color: white;
+    font-size: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
     margin: 0;
     padding: 0;
 }
 
-body {
-    overflow-x: hidden;
-    background: url('../../../../pages/hero-3/assets/img/riven-broken-covenant-762x.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #333;
-}
-
-.header {
-    width: 100%;
-    background-color: transparent;
-    margin-top: 15px;
-    box-shadow: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.header nav {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.header nav a {
-    color: #fff;
+header nav ul li a {
+    color: white;
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 25px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    transition: background 0.3s;
 }
 
-.header nav a:hover {
-    color: #ffcccb;
+header nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.4);
 }
 
-.hero3-images {
-    position: relative;
-    top: 100px;
-    right: 100px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.hero3-1, .hero3-2, .hero3-3 {
-    margin-left: 15px;
-}
-
-.hero3-1 img, .hero3-2 img, .hero3-3 img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-    display: block;
-}
-
-.hero3-container {
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
     position: absolute;
-    display: flex;
-    margin-left: 90px;
-    bottom: 25%;
-    width: 30%;
-}
-
-.japanese {
-    font-size: 55px;
-    font-family: Impact, sans-serif;
-}
-
-.name {
-    font-size: 40px;
-}
-
-.hero3-content {
-    max-width: 800%;
-}
-
-.desc {
-    margin-top: 20px;
-}
-
-.desc h3 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-.tape {
-    position: absolute;
-    bottom: -230px;
-    left: -60px;
-    transform: rotate(-5deg);
-    z-index: 999;
-}
-
-.tape img {
-    width: 550px;
-    height: auto;
-}
-
-.tape2 {
-    position: absolute;
-    top: -200px;
-    right: -100px;
-    transform: rotate(20deg);
+    top: 0;
+    left: 0;
     z-index: -1;
 }
 
-.tape2 img {
-    display: block;
-    width: 550px;
-    height: auto;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
-.icon1 {
-    position: absolute;
-    bottom: -20px;
-    right: -10px;
+.champion-card {
+    width: 500px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    background-color: #25b620b4;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    font-size: 15px;
+    color: #0c0909;
+    padding: 20px;
+    top: auto;
+    bottom: auto;
+    transform: translateX(-50%);
 }
 
-.icon1 img {
-    display: block;
-    width: 230px;
-    height: auto;
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.champion-name {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #000;
+    margin: 5px 0;
+    top: -145px;
+    left: 12px;
+    z-index: 1;
+}
+
+.exiledone {
+    margin: 0;
 }
